@@ -45,3 +45,5 @@ npm run dto
 # Zod approach example
 npm run zod
 ```
+
+# Typescript compiles into javascript anyways so we cannot handle runtime errors for types.
