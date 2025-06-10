@@ -1,0 +1,19 @@
+{
+  "name": "zod-example",
+  "version": "1.0.0",
+  "description": "Example showing benefits of Zod over TypeScript and DTOs",
+  "main": "index.js",
+  "scripts": {
+    "typescript": "ts-node typescript-only.ts",
+    "dto": "ts-node dto-approach.ts",
+    "zod": "ts-node zod-approach.ts",
+    "compile": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
